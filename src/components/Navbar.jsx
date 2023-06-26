@@ -51,10 +51,18 @@ export const Navbar = () => {
                     <Link onClick={handleClick} to='/about' className='text-2xl'>
                         About Us
                     </Link> 
-                    <a href="#" className='text-2xl'>Services</a>  
-                    <a href="#" className='text-2xl'>Contact Us</a>  
-                    <a href="#" className='text-2xl'>Membership</a>  
-                    <a href="#" className='text-2xl'>Gallery</a>  
+                    <Link onClick={handleClick} to='/about' className='text-2xl'>
+                        Services    
+                    </Link> 
+                    <Link onClick={handleClick} to='/about' className='text-2xl'>
+                        Contact Us
+                    </Link> 
+                    <Link onClick={handleClick} to='/about' className='text-2xl'>
+                        Membership
+                    </Link> 
+                    <Link onClick={handleClick} to='/about' className='text-2xl'>
+                        Gallery
+                    </Link> 
                 </div>
             </div>
         </nav>
