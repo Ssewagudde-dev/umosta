@@ -6,6 +6,8 @@ import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Services } from './components/Services'
 import { Contact } from './components/Contact'
+import { Gallery } from './components/Gallery'
+import { Membership } from './components/Membership'
 
 
 function App() {
@@ -18,13 +20,9 @@ function App() {
         <Route path='/about' element={<About />}/>
         <Route path='/services' element={<Services />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/membership' element={<Membership />} />
+        <Route path='/gallery' element={<Gallery />} />
       </Routes>
-      {/* <Home /> */}
-      {/* <WhyUs /> */}
-      {/* <Mission /> */}
-      {/* <About /> */}
-      {/* <Services /> */}
-      {/* <Partners /> */}
       <Footer />
     </Router>
   )
