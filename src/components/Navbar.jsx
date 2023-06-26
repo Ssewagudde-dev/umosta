@@ -51,7 +51,7 @@ export const Navbar = () => {
                     <Link onClick={handleClick} to='/about' className='text-2xl'>
                         About Us
                     </Link> 
-                    <Link onClick={handleClick} to='/sevices' className='text-2xl'>
+                    <Link onClick={handleClick} to='/services' className='text-2xl'>
                         Services    
                     </Link> 
                     <Link onClick={handleClick} to='/contact' className='text-2xl'>
