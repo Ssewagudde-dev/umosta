@@ -51,16 +51,16 @@ export const Navbar = () => {
                     <Link onClick={handleClick} to='/about' className='text-2xl'>
                         About Us
                     </Link> 
-                    <Link onClick={handleClick} to='/about' className='text-2xl'>
+                    <Link onClick={handleClick} to='/sevices' className='text-2xl'>
                         Services    
                     </Link> 
-                    <Link onClick={handleClick} to='/about' className='text-2xl'>
+                    <Link onClick={handleClick} to='/contact' className='text-2xl'>
                         Contact Us
                     </Link> 
-                    <Link onClick={handleClick} to='/about' className='text-2xl'>
+                    <Link onClick={handleClick} to='/membership' className='text-2xl'>
                         Membership
                     </Link> 
-                    <Link onClick={handleClick} to='/about' className='text-2xl'>
+                    <Link onClick={handleClick} to='/gallery' className='text-2xl'>
                         Gallery
                     </Link> 
                 </div>
