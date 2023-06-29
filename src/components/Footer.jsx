@@ -4,6 +4,7 @@ import instagram from '../assets/icon-instagram.svg'
 import twitter from '../assets/icon-twitter.svg'
 import facebook from '../assets/icon-facebook.svg'
 import youtube from '../assets/icon-youtube.svg'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
@@ -13,7 +14,10 @@ export const Footer = () => {
                 Copyright &copy; 2023, All Rights Reserved
             </div>
             <div>
-                <img src={logo} className="h-8" alt=""/>
+                <Link to='/'>
+                     <h1 className="font-bold text-3xl text-white hover:scale-110">UMOSTA</h1>
+                </Link>
+                {/* <img src={logo} className="h-8" alt=""/> */}
             </div>
             <div className="flex justify-center space-x-4">
                 <a href="#">
@@ -33,11 +37,11 @@ export const Footer = () => {
         </div>
         
         <div className="flex flex-col space-y-3 text-white text-center">
-            <a href="#" className="hover:underline">Home</a>
-            <a href="#" className="hover:underline">About Us</a>
-            <a href="#" className="hover:underline">Services</a>
-            <a href="#" className="hover:underline">Membership</a>
-            <a href="#" className="hover:underline">Gallery</a>
+            <Link to='/' className='hover:underline' >Home</Link>
+            <Link to='/about' className='hover:underline' >About Us</Link>
+            <Link to='/services' className='hover:underline' >Services</Link>
+            <Link to='/membership' className='hover:underline' >Membership</Link>
+            <Link to='/gallery' className='hover:underline' >Gallery</Link>
         </div>
 
             <div className="flex flex-col justify-between space-y-3">

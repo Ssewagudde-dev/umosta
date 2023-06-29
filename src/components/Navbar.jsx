@@ -14,7 +14,8 @@ export const Navbar = () => {
             <div className="flex items-center justify-between text-white">
                 <div className="pt-2">
                     <Link to="/">
-                        <img src={logo} alt="" className='h-5' />
+                        {/* <img src={logo} alt="" className='h-5' /> */}
+                        <h1 className="font-bold text-3xl hover:scale-110">UMOSTA</h1>
                     </Link>
                 </div>
                 <div className="hidden md:flex space-x-6">
